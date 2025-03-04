@@ -28,7 +28,7 @@ async function login(username, password) {
         localStorage.setItem("token", token);
         localStorage.setItem("uname", uname);
         localStorage.setItem("auth", auth);
-        window.location.replace("/index.html");
+        window.location.replace("/M07-Lab-Frontend/index.html");
     } else {
         document.querySelector("#errorMsg").innerHTML = "Invalid login";
     }
